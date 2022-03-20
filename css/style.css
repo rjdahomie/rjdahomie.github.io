@@ -1,0 +1,254 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    overflow-y: scroll;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Desktop Nav */
+.nav-container {
+    background-color: rgba(0, 0, 0, 1);
+    height: 44px;
+    z-index: 300;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.nav-container nav{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 8px;
+    height: 100%;
+}
+
+nav .desktop-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+nav .desktop-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 400ms;
+}
+
+nav .desktop-nav li a:hover {
+    opacity: 1;
+}
+
+.link-logo {
+    background: url('../images/rj-logo.svg');
+    display: block;
+    background-position: center;
+    background-size: 27px;
+    height: 44px;
+    width: 15px;
+    background-repeat: no-repeat;
+}
+
+.link-search {
+    background: url('../images/search-icon.svg');
+    display: block;
+    background-position: center;
+    background-size: 18px;
+    height: 44px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.link-instagram {
+    background: url('../images/instagram-logo.svg');
+    display: block;
+    background-position: center;
+    background-size: 22px;
+    height: 44px;
+    width: 25px;
+    background-repeat: no-repeat;
+}
+
+.link-linkedIn {
+    background: url('../images/linkedIn-logo.svg');
+    display: block;
+    background-position: center;
+    background-size: 22px;
+    height: 44px;
+    width: 25px;
+    background-repeat: no-repeat;
+}
+
+.button-viewWork {
+    border: none;
+    color: white;
+    padding: 16px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #181818;
+    animation: animate-opacity 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+.button-viewWork:hover {
+    background-color: #404040;
+    color: white;
+}
+
+.text-main{
+    font-size: 52px;
+    margin-bottom: 1%;
+    animation: moveToLeft 2s;
+}
+
+.test-secondMain{
+    margin-bottom: 1%;
+    animation: moveToRight 2s;
+}
+
+.icon-male-technologist{
+    width: 65px;
+    animation: animate-opacity 2s;
+}
+
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(120px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveToRight {
+    0% {
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animate-opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.button-contact-me {
+    outline: black;
+    background-color: lightgray;
+    color: black;
+    border-radius: 25px;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 20%;
+    animation: animate-opacity;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.text-about-h1 {
+    margin-left: 20%;
+    margin-bottom: 25px;
+    animation: animate-opacity;
+    animation-duration: 1s;
+}
+
+.text-about {
+    margin-left: 20%;
+    font-size: 17px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    animation: animate-opacity;
+    animation-duration: 1s;
+}
+
+.img-about-me {
+    float: right;
+    width: 320px;
+    margin-right: 17%;
+    margin-top: 0%;
+    animation: animate-opacity;
+    animation-duration: 1s;
+}
+
+.text-contact-header{
+    font-size: 250%;
+    animation: animate-opacity;
+    animation-duration: 1s;
+}
+
+.text-contact-paragraph{
+    line-height: 30px;
+    margin-bottom: 1in;
+    animation: animate-opacity;
+    animation-duration: 1s;
+}
+
+.intro-container {
+    margin-top: 15%;
+}
+
+.about-container {
+    padding-top: 1in;
+    margin-top: 15%;
+}
+
+.contact-container{
+    padding-top: 1in;
+    margin-top: 15%;
+}
+
+.projects-container {
+    padding-top: 1in;
+    margin-top: 15%;
+}
+
+.text-project-header {
+    margin-left: 20%;
+    margin-bottom: 25px;
+    animation: animate-opacity;
+    animation-duration: 1s;
+}
+
+.text-projects {
+    margin-left: 20%;
+    margin-right: 20%;
+}
