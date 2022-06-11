@@ -252,3 +252,30 @@ nav .desktop-nav li a:hover {
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.prosthetic-contanier{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.button-back-to-projects{
+    outline: black;
+    background-color: lightgray;
+    color: black;
+    border-radius: 25px;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    animation: animate-opacity;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+    text-align: center;
+}
