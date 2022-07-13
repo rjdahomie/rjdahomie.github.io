@@ -76,10 +76,10 @@ nav .desktop-nav li a:hover {
 }
 
 .link-instagram {
-    background: url('../images/instagram-logo.svg');
+    background: url('../images/github-logo.svg');
     display: block;
     background-position: center;
-    background-size: 22px;
+    background-size: 29px;
     height: 44px;
     width: 25px;
     background-repeat: no-repeat;
