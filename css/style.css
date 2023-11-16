@@ -105,6 +105,16 @@ nav .desktop-nav li a:hover {
     background-repeat: no-repeat;
 }
 
+.link-linkedIn-contact {
+    background: url('../images/linkedIn-logo.svg');
+    display: block;
+    background-position: center;
+    background-size: 30px;
+    height: 44px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
 .button-viewWork {
     border: none;
     color: white;
